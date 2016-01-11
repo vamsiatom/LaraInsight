@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.saimo.appcontent.MainActivity"
+    android:background="@drawable/studentlogin">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFILE"
+        android:id="@+id/btprofile"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COLLEGE INFO"
+        android:id="@+id/btabtclg"
+        android:layout_below="@+id/btprofile"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ELIBRARY"
+        android:id="@+id/btsebook"
+        android:layout_below="@+id/btabtclg"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="39dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATTENDANCE "
+        android:id="@+id/btatten"
+        android:layout_below="@+id/btsebook"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="39dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGGREGATE"
+        android:id="@+id/btag"
+        android:layout_below="@+id/btatten"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:id="@+id/btlogout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/btag" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="STUDENT LOGIN"
+        android:id="@+id/textView33"
+        android:textColor="#1feb11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FEEDBACK"
+        android:id="@+id/btfdback"
+        android:layout_alignTop="@+id/btlogout"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
